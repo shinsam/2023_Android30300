@@ -69,4 +69,9 @@
             android:src="@drawable/bus_ic" />
         <TextView android:text="[버스 이용]\n 301, 2022, 3413, 4319" />
     </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn_pc"
+            android:text="PC버전으로 보기" />
+    </TableRow>
 </TableLayout>

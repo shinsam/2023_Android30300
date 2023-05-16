@@ -15,6 +15,21 @@ public class GuideActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guide);
 
+        findViewById(R.id.img_map).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW , Uri.parse("geo:35.188351,129.222922?z=18") );
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.btn_pc).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent  = new Intent(Intent.ACTION_VIEW , Uri.parse("https://www.naver.com"));
+                startActivity(intent);
+            }
+        });
 
     }
 
