@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="550dp"
-        android:background="#E1A092">
+        android:background="#E91E63">
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/pager"
