@@ -1,6 +1,6 @@
 package com.example.animalhospital;
 
-import androidx.appcompat.app.AppCompatActivity;
+
 
 import android.content.Intent;
 import android.net.Uri;
